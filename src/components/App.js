@@ -1,5 +1,6 @@
 import React from "react";
+import ResourceList from "./ResourceList"
 
-const App = () => <div className="app">Hello World!</div>;
+const App = () => <ResourceList/>;
 
 export default App;
