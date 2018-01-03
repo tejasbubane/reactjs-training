@@ -2,6 +2,11 @@
 
 const webpack = require("webpack");
 const path = require("path");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
+const extractSass = new ExtractTextPlugin({
+  filename: "css/bundle.css"
+});
 
 const apiUrl = "http://localhost:3000"
 
@@ -27,6 +32,20 @@ module.exports = {
         test: /(\.js)$/,
         exclude: /node_modules/,
         loader: "babel-loader"
+      },
+      {
+        test: /\.(css)$/,
+        use: extractSass.extract({
+          fallback: "style-loader",
+          use: [
+            {
+              loader: "css-loader",
+              options: {
+                sourceMap: true
+              }
+            }
+          ]
+        })
       }
     ]
   },
@@ -42,5 +61,7 @@ module.exports = {
         secure: false
       }
     }
-  }
+  },
+
+  plugins: [extractSass]
 };
