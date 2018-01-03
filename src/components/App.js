@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import PrivateRoute from "./PrivateRoute"
 import Login from "./Login"
+import Logout from "./Logout"
 import Layout from "./Layout"
 import UsersList from "./UsersList"
 import ProductsList from "./ProductsList"
@@ -16,6 +17,7 @@ const App = () => (
           <div>Welcome to My Store!</div>
         )} />
         <Route path="/login" component={Login} />
+        <Route path="/logout" component={Logout}/>
         <PrivateRoute path="/users" component={UsersList}/>
         <PrivateRoute path="/products" component={ProductsList}/>
       </Switch>

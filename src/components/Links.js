@@ -7,6 +7,7 @@ const Links = () => (
   <ul>
     <li><Link to="/users">Users</Link></li>
     <li><Link to="/products">Products</Link></li>
+    <li><Link to="/logout">Logout</Link></li>
   </ul>
 )
 
