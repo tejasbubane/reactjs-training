@@ -17,7 +17,7 @@ class UsersList extends Component {
     return this.state.users.map((user, index) => {
       return(
         <tr key={index}>
-          <td>{index + 1}</td>
+          <th scope="row">{index + 1}</th>
           <td>{user.first_name}</td>
           <td>{user.last_name}</td>
         </tr>
@@ -27,12 +27,12 @@ class UsersList extends Component {
 
   render() {
     return(
-      <table>
+      <table className="table">
         <thead>
           <tr>
-            <th>Sr. No</th>
-            <th>First Name</th>
-            <th>Last Name</th>
+            <th scope="col">Sr. No</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
           </tr>
         </thead>
         <tbody>

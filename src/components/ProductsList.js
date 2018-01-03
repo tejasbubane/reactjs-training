@@ -17,7 +17,7 @@ class ProductsList extends Component {
     return this.state.products.map((product, index) => {
       return(
         <tr key={index}>
-          <td>{index + 1}</td>
+          <th scope="row">{index + 1}</th>
           <td>{product.name}</td>
           <td>{product.price}</td>
         </tr>
@@ -27,12 +27,12 @@ class ProductsList extends Component {
 
   render() {
     return(
-      <table>
+      <table className="table">
         <thead>
           <tr>
-            <th>Sr. No</th>
-            <th>Name</th>
-            <th>Price</th>
+            <th scope="col">Sr. No</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
           </tr>
         </thead>
         <tbody>
