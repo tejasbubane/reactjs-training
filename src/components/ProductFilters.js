@@ -8,7 +8,7 @@ const ProductFilters = ({ filters, onChange }) => (
       <section className="row">
         <label htmlFor="price" className="col-md-3 float-right">Price</label>
         <span id="price" className="col-md-9">
-          <InputRange minValue={0} maxValue={200000} step={50000}
+          <InputRange minValue={0} maxValue={200000} step={5000}
                       value={filters.priceRange} onChange={onChange} />
         </span>
       </section>
