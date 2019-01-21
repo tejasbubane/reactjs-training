@@ -73,3 +73,11 @@ _Git commits are tagged at sessions_
 * [WTF is JSX](https://jasonformat.com/wtf-is-jsx/)
 
 ### [Project Ideas](/project_ideas.md)
+
+
+
+## Contact
+
+* Email: [my-github-username] [at] gmail [dot] com
+
+* Twitter: [@tejasbubane](https://twitter.com/tejasbubane/)
