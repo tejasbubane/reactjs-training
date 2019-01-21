@@ -12,6 +12,7 @@ Products portal where users can login, create products and filter them on price-
 
 1. Starts with very basic use of react without any build tools
 1. Uses [Webpack](https://webpack.js.org/) with basic handmade easy-to-explain config.
+1. The portal interacts with APIs of nodejs app built in the [node training](https://github.com/tejasbubane/nodejs-training).
 
 ### Requirements:
 
