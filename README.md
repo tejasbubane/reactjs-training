@@ -26,7 +26,7 @@ Products portal where users can login, create products and filter them on price-
 Duration: 2hrs
 
 * Build basic react hello world app using plain HTML and no build system
-* Live-demo counter and todoapp examples
+* Live-demo and walkthrough of `counter` and `todoapp` examples in codesandbox - [ref](/basics)
 * Explain philosophy for react along the way
 * Create main app with webpack custom build config and start integration with the node app
 * Toggle between users and products list
