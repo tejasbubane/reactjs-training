@@ -71,3 +71,5 @@ _Git commits are tagged at sessions_
 * [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
 * [WTF is JSX](https://jasonformat.com/wtf-is-jsx/)
+
+### [Project Ideas](/project_ideas.md)
