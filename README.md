@@ -28,7 +28,7 @@ Duration: 2hrs
 
 * Build basic react hello world app using plain HTML and no build system
 * Live-demo and walkthrough of `counter` and `todoapp` examples in codesandbox - [ref](/basics)
-* Explain philosophy for react along the way
+* Explain [the philosophy of react](react-philosophy.md)
 * Create main app with webpack custom build config and start integration with the node app
 * Toggle between users and products list
 
